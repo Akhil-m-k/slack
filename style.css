@@ -51,6 +51,10 @@ header.head__section {
   font-size: 19px;
   margin-right: 10px;
 }
+.special__sign_in{
+  color: black;
+  white-space: nowrap;
+}
 .special__try__for__free__btn {
   background-color: var(--primary-color);
   color: #fff;
@@ -63,6 +67,7 @@ header.head__section {
   border-radius: 5px;
   font-weight: bold;
   margin-left: 20px;
+  cursor: pointer;
 }
 .special_dropbtn {
   color: black;
@@ -73,6 +78,7 @@ header.head__section {
   padding: 8px 16px;
   background-color: transparent;
   white-space: noWrap;
+  cursor: pointer;
 }
 
 .special__navbar__brand h1 {
@@ -115,8 +121,11 @@ ul.navbar {
 .sign__in {
   white-space: noWrap;
 }
-.navbar__nav .sign__in:hover {
+.navbar__nav .sign__in:hover,.special__sign_in:hover,.nav__item:hover{
   text-decoration: underline;
+}
+.nav__item{
+  cursor: pointer;
 }
 .try__for__free__btn,
 .talk__to__sales__btn {
