@@ -16,11 +16,11 @@
     ></script>
   </head>
   <body>
-    <!--///// head--section ///////-->
+  <!--///// head--section ///////-->
     <header class="head__section">
       <!-------/// navigation bar ///----->
       <nav class="navbar__nav container flex">
-        <a href="#" class="navbar__brand flex">
+        <a href="#" class="navbar__brand navbarBrand flex">
           <img
             class="navbar__logo"
             width="25px"
@@ -31,18 +31,99 @@
         </a>
         <ul class="navbar flex">
           <li class="nav__item">
-            <div class="dropdown">
-              <button class="dropbtn">
+            <div class="dropdown first">
+              <button class="dropbtn dropBtn">
                 Features
                 <i class="fa-solid fa-angle-down icon-1"></i>
                 <i class="fa-solid fa-angle-up icon-2"></i>
               </button>
               <div class="dropdown-content">
-                <a href="">Channels</a>
-                <a href="#">Slack connect</a>
-                <a href="#">Huddles</a>
-                <a href="">Clips</a>
-              </div>
+                <div class="container-drop">
+                  <div class="left-drop grid-drop">
+                    <ul>
+                      <li><a href="">
+                        <p>Channels</p>
+                        <h5>Focused project spaces</h5>
+                      </a></li>
+                      <li><a href="">
+                        <p>Slack Connect </p>                  
+                          <h5>Shared partner channels</h5>
+                      </a></li>
+                      <li><a href="">
+                        <p>Messaging</p>    
+                        <h5>Organised team chat</h5>       
+                      </a></li>
+                      <li><a href="">
+                        <p>Huddles</p>
+                        <h5>Audio and video calls</h5>                
+                      </a></li>
+                      <li><a href="">
+                        <p>Clips</p>
+                        <h5>Record and share info</h5>
+                      </a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">
+                        <p>Apps and integrations</p>  
+                        <h5>Connect to other services</h5>                      
+                      </a></li>
+                      <li><a href="">
+                        <p>Workflow Builder</p>                
+                        <h5>Automate routine actions</h5>
+                      </a></li>
+                      <li><a href="">
+                        <p>Search </p>                 
+                        <h5>Access shared knowledge</h5>
+                      </a></li>
+                      <li><a href="">
+                        <p>File sharing</p>                
+                        <h5>See and share files</h5>
+                      </a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">
+                        <p>Security</p>                 
+                        <h5>Protect company data</h5>
+                      </a></li>
+                      <li><a href="">
+                        <p>Enterprise Key Management</p>                 
+                        <h5>Control visibility and access</h5>
+                      </a></li>
+                      <li><a href="">
+                        <p>Slack Atlas</p>                  
+                        <h5>Profiles and org charts</h5>
+                      </a></li>
+                      <li><a href="">
+                        <p> Canvas</p>                
+                        <h5>Text docs, directly in Slack</h5>               
+                      </a></li>
+                    </ul>
+        
+                  </div>
+                  <div class="right-drop">
+                    <h4>FEATURED</h4>
+                    <div class="div">
+                      <img src="images/thumb-nav-slack-ai@2x.png" width="100%" alt="">
+                      <p>
+                        Power productivity with all-
+                        new innovations in Slack
+                      </p>
+                      <div style="display: inline-block;">
+                        <a href="" class="drop_read_btn" style="display: flex;  align-items: center;"><h5>Read announcement </h5> &nbsp;&nbsp;<i class="fa fa-light fa-arrow-right"></i></a><br>
+                        <p class="btn_underline"></p>
+                      </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="div-2">
+                      <a href="">what is slack?</a><br><br>
+                      <a href="">Slack vs email</a><br><br>
+                      <a href="">Accessibility</a>
+                   </div>
+                  </div>
+                </div>
+            </div>
             </div>
           </li>
           <li class="nav__item">Solutions</li>
@@ -50,55 +131,14 @@
           <li class="nav__item">Resources</li>
           <li class="nav__item">Pricing</li>
         </ul>
-        <button class="search__btn">
+        <button class="search__btn btn-1">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
-        <a href="" class="sign__in">sign in</a>
-        <button class="talk__to__sales__btn btn">TALK TO SALES</button>
-        <button class="try__for__free__btn btn">TRY FOR FREE</button>
+        <a href="" class="sign__in signIn">sign in</a>
+        <button class="talk__to__sales__btn btn-2 btn">TALK TO SALES</button>
+        <button class="try__for__free__btn btn-3 btn">TRY FOR FREE</button>
       </nav>
       <!-------- End of navigation bar------>
-
-      <!----//////// special navigation bar ////////////-->
-      <nav class="special_nav d-special-none container flex">
-        <a href="#" class="special__navbar__brand flex">
-          <img
-            class="navbar__logo"
-            width="25px"
-            src="images/favicon-32.png"
-            alt=""
-          />
-          <h1>slack</h1>
-        </a>
-        <ul class="navbar flex">
-          <li class="nav__item">
-            <div class="dropdown">
-              <button class="special_dropbtn">
-                Features
-                <i class="fa-solid fa-angle-down icon-1"></i>
-                <i class="fa-solid fa-angle-up icon-2"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="">Channels</a>
-                <a href="#">Slack connect</a>
-                <a href="#">Huddles</a>
-                <a href="">Clips</a>
-              </div>
-            </div>
-          </li>
-          <li class="nav__item">Solutions</li>
-          <li class="nav__item">Enterprice</li>
-          <li class="nav__item">Resources</li>
-          <li class="nav__item">Pricing</li>
-        </ul>
-        <button class="special__search__btn">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-        <a href="" class="sign__in" style="color: black">sign in</a>
-        <button class="special__sales__btn btn">TALK TO SALES</button>
-        <button class="special__try__for__free__btn btn">TRY FOR FREE</button>
-      </nav>
-      <!------///////////////////  End of special navigation bar ////////////////////-------->
 
       <!-------- introduction section ------->
       <section class="introduction grid container">
